@@ -1,0 +1,67 @@
+/********* header ************/
+header{
+    border: 5px solid black;
+    height: 225px;
+    width:999px;
+    margin: 20px auto;
+}
+.purplebox{
+    display:inline-block;
+    background-color:purple;
+    height: 140px;
+    width:40px;
+    margin:10px 10px 10px 10px;
+    bottom:0;
+}
+.greenbox{
+    display:inline-block;
+    background-color:green;
+    height: 190px;
+    width:370px;
+    margin:10px 50px 10px 50px;
+}
+.bluecircle{
+    display:inline-block;
+    background-color:lightblue;
+    height: 190px;
+    width:190px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px
+}
+
+/********* main ************/
+main{
+    border: 5px dotted black;
+    height: 270px;
+    width:1009px;
+    margin: 20px auto;
+}
+.yellowbox{
+    height: 190px;
+    width:90%;
+    background: lightgoldenrodyellow;
+    margin:40px auto;
+    box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.9);
+    
+
+}
+
+/********* footer ************/
+footer{
+    border: 1px solid lightgray;
+    height: 270px;
+    width:444px;
+    margin: 20px auto;
+    padding:90px 0;
+    box-shadow: 5px 5px 12px 0px rgba(200,200,200,1);
+}
+h1{
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    color:darkblue;
+    font-weight: bold;
+    letter-spacing: 9px;
+    line-height: 140%;
+}
